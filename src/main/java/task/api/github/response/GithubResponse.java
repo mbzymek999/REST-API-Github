@@ -1,4 +1,4 @@
-package task.api.github.request;
+package task.api.github.response;
 
 import lombok.Builder;
 import lombok.Data;
@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 @Builder
-public class GithubRequest {
+public class GithubResponse {
     private String fullName;
     private String description;
     private String cloneUrl;

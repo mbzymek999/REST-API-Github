@@ -1,8 +1,8 @@
 package task.external.facade;
 
-import task.api.github.request.GithubRequest;
+import task.api.github.response.GithubResponse;
 
 public interface GithubFacade  {
 
-    GithubRequest getGithubDetails(String owner, String repositoryName);
+    GithubResponse getGithubDetails(String owner, String repositoryName);
 }

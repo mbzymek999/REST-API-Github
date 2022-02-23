@@ -1,4 +1,4 @@
-package task.api.github.request;
+package task.api.github.response;
 
 import lombok.Getter;
 
